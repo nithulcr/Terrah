@@ -1,6 +1,16 @@
 
 
 
+// Show the preloader initially
+const preloader = document.querySelector('.preloader');
+preloader.style.display = 'flex'; 
+
+setTimeout(() => {
+    preloader.classList.add('hidden'); 
+}, 1000); 
+
+
+
 //growing-image small animation
 
 gsap.registerPlugin(ScrollTrigger);
