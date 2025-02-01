@@ -25,6 +25,25 @@ setTimeout(() => {
 
 
 
+//growing-image small animation
+
+gsap.registerPlugin(ScrollTrigger);
+const initialWidth = 35; 
+const maxWidth = 80; 
+const minWidth = 25; 
+
+
+ScrollTrigger.create({
+    trigger: ".growing-image.small",
+    start: "top bottom", 
+    end: "bottom top", 
+    scrub: true, 
+    onUpdate: (self) => {
+        const progress = self.progress; 
+        const newWidth = initialWidth + (maxWidth - initialWidth) * progress; 
+        gsap.to(".growing-image.small", { width: newWidth + "%" });
+    }
+});
 
 
 
