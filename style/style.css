@@ -1891,7 +1891,7 @@ html {
     letter-spacing: 0;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Thicccboi, sans-serif;
+    font-family: terrah, sans-serif;
     font-size: 48px;
     font-weight: 500;
     line-height: 1.4em;
@@ -1908,7 +1908,7 @@ html {
   h3 {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Thicccboi, sans-serif;
+    font-family: terrah, sans-serif;
     font-size: 30px;
     font-weight: 500;
     line-height: 1.3em;
@@ -2134,8 +2134,8 @@ html {
   }
   
   .heading.large {
-    letter-spacing: -.01em;
-    font-size:4vw;
+    letter-spacing: 3px;
+    font-size:2.5vw;
   }
   .w-fit-content{
     width: fit-content;
@@ -2838,8 +2838,8 @@ html {
     place-content: space-between start;
     justify-items: start;
     max-width: 500px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 0;
     display: grid;
   }
@@ -3385,7 +3385,7 @@ html {
     }
   
     .heading.large {
-      font-size: 46px;
+      font-size: 36px;
     }
   
     .heading.extra-large {
@@ -3636,7 +3636,7 @@ html {
     }
   
     .heading.large, .heading.extra-large {
-      font-size: 40px;
+      font-size: 32px;
     }
   
     .body-display.dual-paragraph {
@@ -3776,15 +3776,15 @@ html {
     }
   
     .heading {
-      font-size: 36px;
+      font-size: 28px;
     }
   
     .heading.large {
-      font-size: 38px;
+      font-size: 26px;
     }
   
     .heading.extra-large {
-      font-size: 36px;
+      font-size: 28px;
     }
   
     .logo {
@@ -4061,63 +4061,70 @@ html {
 
   }
 
-  @font-face {
-    font-family: 'Thicccboi';
-    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f511283d9de49846d54_THICCCBOI-Bold.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f516ce8df67834ea217_THICCCBOI-ExtraBold.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f49099f0066aed831c9_THICCCBOI-Bold.ttf') format('truetype'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f499a5d436de4763f79_THICCCBOI-ExtraBold.ttf') format('truetype');
+  /* @font-face {
+    font-family: 'terrah';
+    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f511283d9de49846d54_terrah-Bold.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f516ce8df67834ea217_terrah-ExtraBold.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f49099f0066aed831c9_terrah-Bold.ttf') format('truetype'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f499a5d436de4763f79_terrah-ExtraBold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
-    font-family: 'Thicccboi';
-    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f517886255afb8ef711_THICCCBOI-Light.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f49ec1bfd8ff765960b_THICCCBOI-Light.ttf') format('truetype');
+    font-family: 'terrah';
+    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f517886255afb8ef711_terrah-Light.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f49ec1bfd8ff765960b_terrah-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
-    font-family: 'Thicccboi';
-    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f514800528b56769850_THICCCBOI-Medium.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f498dbb6c31c202d42e_THICCCBOI-Medium.ttf') format('truetype');
+    font-family: 'terrah';
+    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f514800528b56769850_terrah-Medium.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f498dbb6c31c202d42e_terrah-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
-    font-family: 'Thicccboi';
-    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f51d8182e1d918d4c3e_THICCCBOI-Regular.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f497886256e8a8ef70c_THICCCBOI-Regular.ttf') format('truetype');
+    font-family: 'terrah';
+    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f51d8182e1d918d4c3e_terrah-Regular.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f497886256e8a8ef70c_terrah-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
-    font-family: 'Thicccboi';
-    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f515fa4d52ec4e013e9_THICCCBOI-Black.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f49659d3b49b427c690_THICCCBOI-Black.ttf') format('truetype');
+    font-family: 'terrah';
+    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f515fa4d52ec4e013e9_terrah-Black.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f49659d3b49b427c690_terrah-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
-    font-family: 'Thicccboi';
-    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f51df4d6548312dd5bf_THICCCBOI-SemiBold.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f49be06d3515528c26a_THICCCBOI-SemiBold.ttf') format('truetype');
+    font-family: 'terrah';
+    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f51df4d6548312dd5bf_terrah-SemiBold.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f49be06d3515528c26a_terrah-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
-    font-family: 'Thicccboi thicccaf';
-    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f52d8182e98578d4c3f_THICCCBOI-ThicccAF.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f494c428329e7d8a3fe_THICCCBOI-ThicccAF.ttf') format('truetype');
+    font-family: 'terrah thicccaf';
+    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f52d8182e98578d4c3f_terrah-ThicccAF.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f494c428329e7d8a3fe_terrah-ThicccAF.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
-    font-family: 'Thicccboi';
-    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f52659d3b102e27c696_THICCCBOI-Thin.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f4948005258bc76982a_THICCCBOI-Thin.ttf') format('truetype');
+    font-family: 'terrah';
+    src: url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f52659d3b102e27c696_terrah-Thin.woff2') format('woff2'), url('https://cdn.prod.website-files.com/612d4d276c8c1d4c0b70a2f5/61369f4948005258bc76982a_terrah-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
-  }
+  } */
 
+  @font-face {
+    font-family: 'terrah';
+    src:  url('../fonts/MonumentExtended-Regular.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
 
 
 .trangle-grid {
