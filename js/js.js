@@ -1,4 +1,16 @@
+// let lastScrollTop = 0;
 
+// window.addEventListener("scroll", function() {
+//     let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+//     if (currentScroll > lastScrollTop) {
+//         document.body.classList.add("scroll-down");
+//     } else if (currentScroll === 0) {
+//         document.body.classList.remove("scroll-down");
+//     }
+
+//     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
+// }, false);
 
 
 // Show the preloader initially
