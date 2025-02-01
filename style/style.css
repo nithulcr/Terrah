@@ -2740,6 +2740,7 @@ html {
     width: 35%;
     margin-right: 0;
     overflow: visible;
+    will-change: width;
   }
   
   .growing-image.right {
