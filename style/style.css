@@ -2741,6 +2741,8 @@ html {
     margin-right: 0;
     overflow: visible;
     will-change: width;
+    position: relative;
+    transform: translateZ(0);
   }
   
   .growing-image.right {

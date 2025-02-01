@@ -32,6 +32,10 @@ const maxWidth = 80; // Maximum width in percentage
 
 // Select all elements with the class .growing-image.small
 document.querySelectorAll(".growing-image.small").forEach((image) => {
+    // Ensure the element starts at the initial width
+    gsap.set(image, { width: `${initialWidth}%` });
+
+    // Animate the width
     gsap.fromTo(
         image,
         { width: `${initialWidth}%` }, // Start from initialWidth
@@ -42,6 +46,14 @@ document.querySelectorAll(".growing-image.small").forEach((image) => {
                 start: "top bottom", // When the top of the element hits the bottom of the viewport
                 end: "bottom top", // When the bottom of the element hits the top of the viewport
                 scrub: true, // Smoothly animate on scroll
+                onEnter: () => {
+                    // Ensure the width is reset when entering the trigger area
+                    gsap.set(image, { width: `${initialWidth}%` });
+                },
+                onLeaveBack: () => {
+                    // Reset the width when scrolling back past the start
+                    gsap.set(image, { width: `${initialWidth}%` });
+                },
             },
         }
     );
