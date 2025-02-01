@@ -1,25 +1,25 @@
-// let lastScrollTop = 0;
+let lastScrollTop = 0;
 
-// window.addEventListener("scroll", function() {
-//     let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+window.addEventListener("scroll", function() {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
-//     if (currentScroll > lastScrollTop) {
-//         document.body.classList.add("scroll-down");
-//     } else if (currentScroll === 0) {
-//         document.body.classList.remove("scroll-down");
-//     }
+    if (currentScroll > lastScrollTop) {
+        document.body.classList.add("scroll-down");
+    } else if (currentScroll === 0) {
+        document.body.classList.remove("scroll-down");
+    }
 
-//     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
-// }, false);
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
+}, false);
 
 
 // Show the preloader initially
-const preloader = document.querySelector('.preloader');
-preloader.style.display = 'flex'; 
+// const preloader = document.querySelector('.preloader');
+// preloader.style.display = 'flex'; 
 
-setTimeout(() => {
-    preloader.classList.add('hidden'); 
-}, 1000); 
+// setTimeout(() => {
+//     preloader.classList.add('hidden'); 
+// }, 1000); 
 
 
 
