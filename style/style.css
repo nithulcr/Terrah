@@ -397,7 +397,7 @@ html {
   
   h3 {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
   }
   
@@ -1909,7 +1909,7 @@ html {
     margin-top: 0;
     margin-bottom: 0;
     font-family: terrah, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 500;
     line-height: 1.3em;
   }
@@ -2034,7 +2034,7 @@ html {
     transition: .5s;
   }
   .open .mobile-nav-menu{
-    top: 80px;
+    top: 70px;
   }
   .nav-link {
     color: var(--white);
