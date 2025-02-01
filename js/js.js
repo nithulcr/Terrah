@@ -102,17 +102,22 @@ buttons.forEach(button => {
     });
 });
 
-$(".menu").on('click', function () {
 
-    var selector = $("body")
+
+// menu start
+$(".menu").on('click', function () {
+    var selector = $("body");
 
     if (selector.hasClass('open')) {
-        
         selector.removeClass('open');
     } else {
-        
         selector.addClass('open');
     }
+});
+
+
+$(".nav-link").on('click', function () {
+    $("body").removeClass('open');
 });
 
 
