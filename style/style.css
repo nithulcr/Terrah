@@ -1673,7 +1673,7 @@ html {
     position: relative;
   }
   .w-nav-brand img{
-    width: 180px;
+    width: 160px;
   }
   .w-nav-link {
     vertical-align: top;
@@ -2082,6 +2082,8 @@ html {
     display: flex;
     height: 100%;
     transition: .5s;
+    width: 200px;
+    object-fit: contain;
   }
   
   .section {
@@ -2133,9 +2135,12 @@ html {
   
   .heading.large {
     letter-spacing: -.01em;
-    font-size: 68px;
+    font-size:4vw;
   }
-  
+  .w-fit-content{
+    width: fit-content;
+    margin: 0 auto;
+  }
   .heading.extra-large {
     font-size: 56px;
     line-height: 1.45em;
@@ -3140,6 +3145,12 @@ html {
     background-size: cover;
     position: absolute;
     inset: 0%;
+    overflow: hidden;
+
+      video {
+        width: 100%;
+        height: auto;
+    }
   }
   
 
