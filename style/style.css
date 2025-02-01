@@ -2743,6 +2743,7 @@ html {
     will-change: width;
     position: relative;
     transform: translateZ(0);
+    
   }
   
   .growing-image.right {
@@ -3406,6 +3407,7 @@ html {
     .large-growing-images.small {
       height: 45vw;
       min-height: 400px;
+      overflow: hidden;
     }
   
     .stacked-content.large {
