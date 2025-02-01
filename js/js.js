@@ -1,27 +1,3 @@
-let lastScrollTop = 0;
-
-window.addEventListener("scroll", function() {
-    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-    if (currentScroll > lastScrollTop) {
-        // Scrolling down
-        document.body.classList.add("scroll-down");
-    } else if (currentScroll === 0) {
-        // At the top of the page
-        document.body.classList.remove("scroll-down");
-    }
-
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
-}, false);
-
-
-// Show the preloader initially
-const preloader = document.querySelector('.preloader');
-preloader.style.display = 'flex'; 
-
-setTimeout(() => {
-    preloader.classList.add('hidden'); 
-}, 1000); 
 
 
 

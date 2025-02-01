@@ -3208,6 +3208,7 @@ html {
   
   .paragraph-heading {
     font-size: 52px;
+    /* font-weight: 400; */
   }
   
   .arrow-hover-circle {
@@ -3581,7 +3582,7 @@ html {
     }
   
     .paragraph-heading {
-      font-size: 46px;
+      font-size: 40px;
     }
   
     .hero-overlay {
@@ -3729,7 +3730,8 @@ html {
     }
   
     .paragraph-heading {
-      font-size: 42px;
+      font-size: 32px;
+      font-weight: 400;
     }
   }
   
@@ -3862,7 +3864,7 @@ html {
     }
   
     .paragraph-heading {
-      font-size: 28px;
+      font-size: 20px;
     }
     .logos-wrapper {
       display: flex;
