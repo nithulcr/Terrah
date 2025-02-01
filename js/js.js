@@ -24,8 +24,30 @@ setTimeout(() => {
 
 
 //growing-image small animation
+gsap.registerPlugin(ScrollTrigger);
 
+const initialWidth = 35; // Initial width in percentage
+const maxWidth = 80; // Maximum width in percentage
 
+// Check if the screen width is greater than 768px
+if (window.innerWidth > 768) {
+    // Select all elements with the class .growing-image.small
+    document.querySelectorAll(".growing-image.small").forEach((image) => {
+        gsap.fromTo(
+            image,
+            { width: `${initialWidth}%` }, // Start from initialWidth
+            {
+                width: `${maxWidth}%`, // Animate to maxWidth
+                scrollTrigger: {
+                    trigger: image, // Use the current image as the trigger
+                    start: "top bottom", // When the top of the element hits the bottom of the viewport
+                    end: "bottom top", // When the bottom of the element hits the top of the viewport
+                    scrub: true, // Smoothly animate on scroll
+                },
+            }
+        );
+    });
+}
 
 
 
