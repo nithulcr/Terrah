@@ -149,7 +149,6 @@ let SwiperTop = new Swiper(".swiper--top", {
       reverseDirection: true
     },
     loop: true,
-    loopedSlides: 4,
     slidesPerView: "auto",
     allowTouchMove: false,
     disableOnInteraction: true
@@ -157,5 +156,3 @@ let SwiperTop = new Swiper(".swiper--top", {
   
   
 
-
-  
